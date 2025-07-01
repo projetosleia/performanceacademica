@@ -1,0 +1,125 @@
+body {
+  background-color: #f8f8fb;
+}
+
+footer {
+  background-color: #65259d;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 3rem;
+}
+
+.navbar-logo {
+  max-width: 100px;
+}
+
+.material-symbols-outlined {
+  color: white;
+}
+
+.hero__section {
+  background-image: url(/assets/images/dashboard-indicadores-hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 310px;
+}
+
+.btn-primary {
+  background-color: #65259d !important;
+  border-color: #65259d !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: #441961 !important;
+  border-color: #441961 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.btn-secondary {
+  background-color: #b637b9 !important;
+  border-color: #b637b9 !important;
+  color: white !important;
+}
+
+.btn-secondary:hover {
+  background-color: #972799 !important;
+  border-color: #972799 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.bg-primary {
+  background-color: #65259d !important;
+}
+
+.border-primary {
+  border-color: #65259d !important;
+}
+
+.tab-content {
+  background-color: white;
+}
+
+.text-primary {
+  color: #65259d !important;
+}
+
+.text-secondary {
+  color: #b637b9 !important;
+}
+
+a {
+  color: #65259d !important;
+}
+
+a:hover {
+  color: #441961 !important;
+  text-decoration: underline;
+}
+
+.navbar a {
+  color: #212529 !important;
+}
+
+.navbar a:hover {
+  color: #65259d !important;
+  text-decoration: none;
+}
+
+.nav-pills {
+  --bs-nav-pills-link-active-bg: #65259d;
+}
+
+.nav-link {
+  color: #65259d;
+}
+
+.nav-link:hover {
+  color: #65259d;
+}
+
+ol li::marker {
+  color: #65259d;
+  font-weight: bold;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #65259d;
+  color: white;
+}
+
+.accordion-button.collapsed {
+  background-color: #f8f9fa;
+  color: #121212;
+}
+
+.card__indicators {
+  min-height: 240px;
+}

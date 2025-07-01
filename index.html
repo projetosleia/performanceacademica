@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Indicadores Acadêmicos</title>
+    <link
+      rel="icon"
+      href="assets/images/icon-ecossistema-anima.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-body-tertiary shadow">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="assets/images/logo-ecossistema-anima.png"
+              alt=""
+              class="w-25"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Início</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid bg-primary hero__section">
+        <div class="container text-white">
+          <div class="d-flex align-items-center">
+            <div class="col-12 col-sm-8">
+              <h1 class="display-4 fw-bold mt-5">
+                PERFORMANCE ACADÊMICA DAS MARCAS
+              </h1>
+                        <p class="fs-8 mb-4">Dashboards, relatórios, releases, apresentações e instrumentos que apoiam a gestão e a performance acadêmica das marcas, 
+                        produzidos pela VPA – Vice-presidência Acadêmica</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="py-5">
+        <div class="container">
+          <p class="fs-8 mb-4">Selecione a aba para navegar nos recursos da performance acadêmica</p>
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="indicadoresE2A-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#indicadoresE2A"
+                type="button"
+                role="tab"
+                aria-controls="indicadoresE2A"
+                aria-selected="true"
+              >
+                Dahsboards
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="indicadoresGestaoAcademica-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#indicadoresGestaoAcademica"
+                type="button"
+                role="tab"
+                aria-controls="indicadoresGestaoAcademica"
+                aria-selected="false"
+              >
+                Engajamento
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="indicadoresRegulatorios-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#indicadoresRegulatorios"
+                type="button"
+                role="tab"
+                aria-controls="indicadoresRegulatorios"
+                aria-selected="false"
+              >
+                Qualidade acadêmica
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="indicadoresExternos-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#indicadoresExternos"
+                type="button"
+                role="tab"
+                aria-controls="indicadoresExternos"
+                aria-selected="false"
+              >
+                Apresentações e instrumentos
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content border shadow p-5" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="indicadoresE2A"
+              role="tabpanel"
+              aria-labelledby="indicadoresE2A-tab"
+              tabindex="0"
+            >
+              <h2 class="fw-bold text-primary">Indicadores institucionais</h2>
+
+              <div class="row my-5">
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Performance Acadêmica das Marcas</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Painel estratégico com desempenho acadêmico e operacional das marcas,
+                        integrando dados como eficiência, equilíbrio, permanência, NPS e ticket médio para orientar decisões.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/reportEmbed?reportId=83c2e948-ebfb-4212-bca7-c2b7f9107de4&autoAuth=true&ctid=57095a8c-ade3-4706-b7d7-30379e58918b"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Findicadores%5Fe2a%2Fdesempenho%5Favaliacoes&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Relatórios</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">ENADE</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise dos principais resultados do 
+                        Ensino Superior - Ministério da Educação (IGC, CPC, IDD, ENADE).
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/links/pu4me3OebV?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&pbi_source=linkShare"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Findicadores%5Fe2a%2Frecursos%5Fa2&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Relatórios</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Desempenho das avaliações</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise dos desempenhos dos estudantes nas avaliações A1, A2 e A3.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/72e370f6-f7ea-4f6d-b13a-b02fe4bcf9f3/ReportSection?experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Findicadores%5Fe2a%2Fatividades%5Fextensao&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Relatórios</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+ 
+                <div class="col-12 col-sm-6">
+                  <!--<div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Core Curriculum</h5>
+                    </div>
+                    
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise do Core Curriculum: componente
+                        comum a todos os cursos de graduação, focado na formação
+                        geral dos estudantes.
+                      </p> 
+                    </div>
+                    
+                    <div class="card-footer">
+                      <div class="mt-2">
+                       <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/c15b23c616aefbc31012?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        > -->
+                        <!--<a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Findicadores%5Fe2a%2Fcore%5Fcurriculum&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Release</a
+                        > 
+                      </div>
+                    </div>
+                  </div>-->
+                </div>
+                <div class="col-12 col-sm-6">
+                  <!--<div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Vida &amp; Carreira</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise do Vida &amp; Carreira: componente
+                        curricular voltado ao desenvolvimento de competências
+                        socioemocionais e à conexão dos alunos com o mundo do
+                        trabalho.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/044f26b429c73406818c?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Findicadores%5Fe2a%2Fvida%5Fcarreira&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Release</a
+                        >
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+                <div class="col-12 col-sm-6">
+                <!--  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Ensino Dual</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise do Ensino Dual: sistema que
+                        integra experiências práticas em cenários reais de
+                        trabalho por meio de parcerias com o mercado.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/2b79fb36ecb231ca8c8d?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Findicadores%5Fe2a%2Fensino%5Fdual&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Release</a
+                        >
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="indicadoresGestaoAcademica"
+              role="tabpanel"
+              aria-labelledby="indicadoresGestaoAcademica-tab"
+              tabindex="0"
+            >
+              <h2 class="fw-bold text-primary">Apropriação dos indicadores</h2>
+
+              <div class="row my-5">
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">VPA Itinerante</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Análise personalizada para cada marca de acordo com a governança de dados da VP Acadêmica que integra três gerências 
+                        estratégicas orientadas por dados para garantir a qualidade, performance e desempenho da aprendizagem dos estudantes.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/links/YsllGmzxnK?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&pbi_source=linkShare"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/:f:/r/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Gest%C3%A3o%20de%20Learning%20Analytics/RELAT%C3%93RIOS%20VPA%20-%20ITINERANTE?csf=1&web=1&e=VO0dck"
+                          target="_blank"
+                          >Relatórios</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+
+                  <!--
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Sala Mais</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise do Sala Mais: formação
+                        pré-semestre para apoiar os professores em suas
+                        atividades acadêmicas.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/d459e26cdcf9708428bc?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Findicadores%5Fgestao%5Facademica%2Fsala%5Fmais&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Release</a
+                        >
+                      </div>
+                    </div>
+                  </div>-->
+
+                </div>
+                <div class="col-12 col-sm-6">
+                  
+                  <!-- <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Mapeamento Docente</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise do perfil docente, incluindo
+                        experiência, currículo e produções acadêmicas.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/6c10da00602fef94b33f?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Findicadores%5Fgestao%5Facademica%2Fmapeamento%5Fdocente&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Release</a
+                        >
+                      </div>
+                    </div>
+                  </div>-->
+
+                </div>
+                <div class="col-12 col-sm-6">
+                <!--
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Atendimento NAPI</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise dos atendimentos e ações do NAPi
+                        (Núcleo de Apoio Psicopedagógico).
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/8523b2ae1722169b20af?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Findicadores%5Fgestao%5Facademica%2Fnapi&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Release</a
+                        >
+                      </div>
+                    </div>
+                  </div>-->
+
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="indicadoresRegulatorios"
+              role="tabpanel"
+              aria-labelledby="indicadoresRegulatorios-tab"
+              tabindex="0"
+            >
+              <h2 class="fw-bold text-primary">Indicadores Regulatórios</h2>
+              <div class="row my-5">
+                <div class="col-12 col-sm-6">
+                 <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Quero Educação</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise do Quero Educação: avaliação da
+                        presença e desempenho institucional na plataforma de
+                        orientação e comparação de cursos de graduação.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/457a589a87228f048d42?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Fregulatorios%2Fenade&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Release</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">CPC</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise do CPC: avaliação dos cursos de
+                        graduação, considerando a nota do ENADE, as pontuações
+                        do corpo docente, infraestrutura e ensino.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/e5f2e4d824a2006244d1?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Fregulatorios%2Fcpc&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Release</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">IGC</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise do IGC: avaliação da qualidade dos
+                        cursos de graduação, considerando o desempenho no ENADE,
+                        a titulação do corpo docente e a infraestrutura.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/2e1bc1488ce0b619d920?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Fregulatorios%2Figc&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Release</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">IDD</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise do IDD: avaliação do desempenho
+                        dos egressos, considerando a progressão dos estudantes
+                        no mercado de trabalho após a conclusão do curso.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/4bb5ad49c5f74614a424?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Fregulatorios%2Fidd&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Release</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Atos Regulatórios</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Indicadores e análise dos atos regulatórios tais como
+                        processos de autorização, reconhecimento e renovação dos
+                        cursos de graduação.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/8e0bbcb067d1e6602c56?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Dashboard</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Findicadores%5Fqualidade%2Freleases%2Fregulatorios%2Fatos%5Fregulatorios&viewid=24287f44%2Dd5c9%2D4667%2D8d43%2D03a6ce3182ab&csf=1&web=1&e=kMMjO2&ovuser=57095a8c%2Dade3%2D4706%2Db7d7%2D30379e58918b%2Crodrigo%2Em%2Epittezr%40animaeducacao%2Ecom%2Ebr&OR=Teams%2DHL&CT=1740753058985&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIxNDE1LzI1MDIxNDAwOTA1IiwiSGFzRmVkZXJhdGVkVXNlciI6ZmFsc2V9&CID=49f285a1%2D605a%2D8000%2D3919%2D247be3e546c1&cidOR=SPO&FolderCTID=0x0120007E97E2AA79031542B9EE1CEBCD7810CE"
+                          target="_blank"
+                          >Release</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="indicadoresExternos"
+              role="tabpanel"
+              aria-labelledby="indicadoresExternos-tab"
+              tabindex="0"
+            >
+              <h2 class="fw-bold text-primary">Materiais de apoio</h2>
+              <div class="row my-5">
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Hub Docente</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                       O Hub Docente é um espaço criado para conectar, apoiar e centralizar as informações para os docentes do ecossistema Ânima. 
+                       Integrado ao Microsoft Teams, ele reúne recursos, oportunidades e orientações pedagógicas.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://app.powerbi.com/groups/me/reports/0c93ec74-0354-456b-9324-5cccb1d028d0/c8df5df2541f6ca2c6a8?ctid=57095a8c-ade3-4706-b7d7-30379e58918b&experience=power-bi"
+                          target="_blank"
+                          >Acessos</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Fpos%5Fgraduacao%2Fhub%5Fdocente%2Fapresentacao%5Fhub%5Fdocente%2Epdf&parent=%2Fsites%2FGestodeFuturosAcadmicos%2FDocumentos%20Compartilhados%2FAcademia%20de%20Talentos%2Fsolucao%5Fgestao%5Ftalentos%2Fhub%5Fdocente%2Forganizacao%5Fdo%5Ftrabalho%2Fframework%5Fdocente%2Fpos%5Fgraduacao%2Fhub%5Fdocente"
+                          target="_blank"
+                          >Apresentação</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Kit Docente</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Reúne todas as informações necessárias para a construção o planejamento pedagógico docente, 
+                        com base nas diretrizes estruturantes e orientadoras do modelo E2A.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://catalogcdns3.ulife.com.br/organizacao_do_trabalho_docente/framework_docente/kit_docente/index.html"
+                          target="_blank"
+                          >Kit Docente 2025-1</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2 disabled"
+                          role="button"
+                          aria-disabled="true"
+                          tabindex="-1"
+                          >Kit Docente 2025-2
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Apresentações</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Apresentações de projetos e programas voltados para o fortalecimento da performance e 
+                        da qualidade acadêmica e templates personalizáveis.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/:f:/r/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Academia%20de%20Talentos/solucao_gestao_talentos/hub_docente/organizacao_do_trabalho/framework_docente/apresentacoes_templates/apresentacoes/templates?csf=1&web=1&e=66mY3w"
+                          target="_blank"
+                          >Templates</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://animaeducacao.sharepoint.com/:f:/r/sites/GestodeFuturosAcadmicos/Documentos%20Compartilhados/Academia%20de%20Talentos/solucao_gestao_talentos/hub_docente/organizacao_do_trabalho/framework_docente/apresentacoes_templates/apresentacoes/apresentacoes?csf=1&web=1&e=iCssIK"
+                          target="_blank"
+                          >Apresentações</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="card border mb-5 card__indicators">
+                    <div class="card-header">
+                      <h5 class="mt-2">Integração Microsoft</h5>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                         Para tornar o uso do Microsoft Teams e demais ferramentas Microsoft 
+                         mais prático e eficiente, esse espaço reúne informações essenciais 
+                         para você aproveitar ao máximo os recursos disponíveis. 
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="mt-2">
+                        <a
+                          class="btn btn-primary mb-2"
+                          role="button"
+                          href="https://catalogcdns3.ulife.com.br/organizacao_do_trabalho_docente/framework_docente/integracao_microsoft/index.html"
+                          target="_blank"
+                          >Página</a
+                        >
+                        <a
+                          class="btn btn-secondary mb-2"
+                          role="button"
+                          href="https://catalogcdns3.ulife.com.br/organizacao_do_trabalho_docente/framework_docente/integracao_microsoft/faq.html"
+                          target="_blank"
+                          >Dúvidas frequentes</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
